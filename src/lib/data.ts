@@ -23,5 +23,11 @@ export const projects: Project[] = [
 		description: 'Pemantauan status perangkat lab sekolah secara real-time.',
 		stack: 'TypeScript',
 		year: 2026
+	},
+	{
+		title: "Snapan Hihu",
+		description: "SAYA CINTA KANTIN KUNING",
+		stack: "pulstek",
+		year: 2026
 	}
 ];
