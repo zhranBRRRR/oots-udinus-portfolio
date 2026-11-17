@@ -670,6 +670,16 @@
 							>
 								{project.description}
 							</p>
+							{#if project.link}
+								<a
+									href={project.link}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="u-link mt-4 w-fit text-[15px] font-medium text-primary group-hover:text-on-primary lg:text-[17px]"
+								>
+									Lihat proyek →
+								</a>
+							{/if}
 						</div>
 					</article>
 				{/each}

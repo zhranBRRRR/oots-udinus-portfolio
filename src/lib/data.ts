@@ -3,31 +3,27 @@ export type Project = {
 	description: string;
 	stack: string;
 	year: number;
+	/** Opsional: tautan demo/repo, kosong kalau proyek belum punya */
+	link?: string;
 };
 
 export const projects: Project[] = [
 	{
-		title: 'Sistem Absensi Kelas',
-		description: 'Aplikasi pencatatan kehadiran siswa dengan rekap otomatis per bulan.',
-		stack: 'SvelteKit',
+		title: 'WordlEffect',
+		description: 'Game Wordle dengan efek terinspirasi dari Tetris Effect',
+		stack: 'React',
 		year: 2026
 	},
 	{
-		title: 'Landing Page UKM',
-		description: 'Halaman profil organisasi sekolah dengan formulir pendaftaran anggota.',
-		stack: 'Tailwind',
+		title: 'packet_',
+		description: 'Aplikasi P2P untuk berbagi files dan text di network yang sama dengan cepat',
+		stack: 'React dan PeerJS',
 		year: 2026
 	},
 	{
-		title: 'Dashboard Jaringan',
-		description: 'Pemantauan status perangkat lab sekolah secara real-time.',
-		stack: 'TypeScript',
+		title: 'OpenLily',
+		description: 'Aplikasi scanning disk untuk macOS berbentuk bunga',
+		stack: 'SwiftUI',
 		year: 2026
 	},
-	{
-		title: "Snapan Hihu",
-		description: "SAYA CINTA KANTIN KUNING",
-		stack: "pulstek",
-		year: 2026
-	}
 ];
